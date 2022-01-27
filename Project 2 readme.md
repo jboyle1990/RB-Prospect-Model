@@ -12,17 +12,23 @@ Brandon Spadafora
 
 Our goal for this project was to examine how we could leverage machine learning in the financial markets to augment our trading performance.
 
-Broadly, we looked to answer whether our "machine" could perform better than hand individual stocks within 
+We looked to answer whether our "machine" could perform better than individual stocks within specific ETFs. Additionally, we looked to answer whether we could use various clustering methods to group individual stocks together better than ETFs currently trading in the marketplace.
 
 
 ## Data Gathering, Cleanup, and API Selection
 
-
+The first step for us to begin our project was to find historical stock information including a number of key metrics that would be used for both the clustering analysis and in building the machine learning model.
 
 APIs used:
 
 * Alpaca 
 * IEX 
+
+Online Resources used:
+
+* Bloomberg
+* Medium
+* Github
 
 ## Analysis 1 - Clustering Study of ETFs 
 
@@ -44,4 +50,6 @@ APIs used:
 1. 
 
 
-# References
+# References / Citations
+
+
