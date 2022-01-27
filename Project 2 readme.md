@@ -17,7 +17,9 @@ We looked to answer whether our "machine" could perform better than individual s
 
 ## Data Gathering, Cleanup, and API Selection
 
-The first step for us to begin our project was to find historical stock information including a number of key metrics that would be used for both the clustering analysis and in building the machine learning model.
+The first step for us to begin our project was to find historical stock information including a number of key metrics that would be used for both the clustering analysis and in building the machine learning model. We determined that metrics such as EBITDA, total debt, net income, VWAP, moving averages, etc. would be critical for us to perform our analysis.
+
+Through various APIs and online resouces we were able to gather a data set of over 160 individual stocks inclduing the metrics mentioned above. 
 
 APIs used:
 
@@ -29,6 +31,8 @@ Online Resources used:
 * Bloomberg
 * Medium
 * Github
+
+
 
 ## Analysis 1 - Clustering Study of ETFs 
 
@@ -47,7 +51,7 @@ Online Resources used:
 
 ## Additional Thoughts 
 
-1. 
+1. Compare ETF perfomrance vs 
 
 
 # References / Citations
