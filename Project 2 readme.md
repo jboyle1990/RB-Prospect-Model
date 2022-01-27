@@ -32,8 +32,6 @@ Online Resources used:
 * Medium
 * Github
 
-
-
 ## Analysis 1 - Clustering Study of ETFs 
 
 
@@ -49,10 +47,16 @@ Online Resources used:
 
 ## Conclusion
 
+
+
+### Challenges
+
+i. Lack of available historical data (most of it is behind paywalls)
+ii. 
+
 ## Additional Thoughts 
 
-1. Compare ETF perfomrance vs 
-
+i. 
 
 # References / Citations
 
