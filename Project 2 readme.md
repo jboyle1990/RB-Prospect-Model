@@ -51,12 +51,12 @@ Online Resources used:
 
 ### Challenges
 
-i. Lack of available historical data (most of it is behind paywalls)
-ii. 
+1. Lack of available historical data (most of it is behind paywalls)
+2.  
 
-## Additional Thoughts 
+## Additional Thoughts / Continuation of Analysis
 
-i. 
+1. Backtest the model 
 
 # References / Citations
 
