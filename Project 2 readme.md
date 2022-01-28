@@ -2,14 +2,11 @@
 
 ### Team Members
 
-Michael Detwiler
-Adnon Quaderi
-Johnathan Boyle
-Brandon Spadafora
+Michael Detwiler, Adnon Quaderi, Johnathan Boyle, Brandon Spadafora
 
 ## Our Goals for this Project
 
-Our goal for this project was to examine how we could leverage machine learning in the financial markets to augment our trading performance. This would encompass two specific methods 
+Our goal for this project was to examine how we could leverage machine learning in the financial markets to augment our trading performance. This would encompass two separate studies. The
 
 We looked to answer whether our "machine" could perform better than individual stocks within specific ETFs. 
 
@@ -33,7 +30,7 @@ Online Resources used:
 * Medium
 * Github
 
-## Analysis 1 - Clustering Study of ETFs 
+## Analysis 1 - Clustering Study  
 
 
 
