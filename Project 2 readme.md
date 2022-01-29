@@ -73,7 +73,7 @@ In the future we would like to introduce different data to the algorithm such as
 
 ## Analysis 2 - Forecasting with our Trading Method 
 
-The second part of our 
+The second part of our analysis was building a forecasting model to predict underlying stock price and evaluate potential returns from our forecasts. We would also analyze our forecasted based trading against a technical trading strategy (moving average crossover).
 
 ### Model Specifications:
 
@@ -98,14 +98,14 @@ Model Training Process:
 
 ## Trading Strategy
 
-Directional and always invested. Our two potential trades are 1M shares long or 1M shares short.
+Directional and always invested. Our two potential trades are 1M shares long or 1M shares short. We will examine both a technical analysis strategy and a strategy based off technical analysis.
 
-Our technical indicator for executing a trade was using a moving average crossover. If short moving average is greater than long moving average then stay or go long. 
-
+1. Technical Analysis Trading -  If short moving average is greater than long moving average then stay or go long. 
+2. LSTM Driven Trading - we will trade on the predicted price of underlying asset
 
 ### Model Evaluation
 
-Running / optimizing longer time series 
+Here are the various model outputs throughout the model's use and in our analysis:
 
 ![image](https://user-images.githubusercontent.com/91380617/151642357-1efd6bf9-d472-4f72-823a-5d651eab5d7a.png)
 
@@ -122,17 +122,23 @@ Running / optimizing longer time series
 ![image](https://user-images.githubusercontent.com/91380617/151642396-b50d56c2-a060-46e0-b0d6-7743f09d29e8.png)
 
 
+### Analyzing Trading Performance
+
+* Technical based trading has more outliers on the negative side
+* This is consistent with the long term performance seen in graph above
+
+* LSTM trading outperformed technical trading strategy
+
 ![image](https://user-images.githubusercontent.com/91380617/151642410-97aec5b9-9be8-4978-935e-6a9faa339fe1.png)
 
-
 ![image](https://user-images.githubusercontent.com/91380617/151642416-6fd04200-5d8e-4051-b596-65729cccd930.png)
-
 
 ### Findings
 
 1. Running longer time series analysis to 2009 yields poor results 
-2. 
-
+2. Model can generate good forecast if parameters are properly optimized
+3. Expect a continual process to maintain optimal forecast and profitable strategy
+4. LSTM forecast driven strategy outperformed moving average strategy
 
 ### Challenges
 
@@ -146,9 +152,10 @@ Running / optimizing longer time series
 
 1. Would like to try the clustering analysis with a broader choice of stocks 
 2. Would like to try the clustering analyis with more features (Financial metrics)
-3. Backtest the forecasting model with additional stocks 
-4. Run the forecast model with different technical analysis
+3. Backtest the forecasting model with additional stocks (up to 1000)
+4. Run the forecast model against different technical analysis
 6. Run both analyses for different asset classes
+ 
 
 # References / Citations
 
