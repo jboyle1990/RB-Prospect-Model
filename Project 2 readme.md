@@ -49,7 +49,6 @@ Observing the elbow curve there was a very distinct breaking point at 2 clusters
 ![image](https://user-images.githubusercontent.com/91380617/151642273-4a1d0736-d472-4153-940a-e4b9e7978325.png)
 
 
-
 ### Sihlouette Analysis 
 
 The sihlouette score is much higher for 2 clusters than any other grouping telling us that two clusters is the optimal number. 
@@ -72,11 +71,11 @@ In the future we would like to introduce different data to the algorithm such as
 * different asset classes
 * different features )more financial metrics)
 
-## Analysis 2 - Machine Learning Model to Evaluate 
+## Analysis 2 - Forecasting with our Trading Method 
 
-The second part 
+The second part of our 
 
-### Model Specifications
+### Model Specifications:
 
 Here are the features of our RNN LSTM model:
 
@@ -88,8 +87,25 @@ Here are the features of our RNN LSTM model:
 
 ![image](https://user-images.githubusercontent.com/91380617/151642334-b34b27e9-3bbd-4020-9baa-f7dfcbf292b3.png)
 
+Model Training Process:
+
+* Takes less than a minute to scale, train, compile & fit
+* window size of 50
+* 200 nuerons 
+* batch size of 64
+* time series length of 5-7 years
+* 70% of the data was used for training
+
+## Trading Strategy
+
+Directional and always invested. Our two potential trades are 1M shares long or 1M shares short.
+
+Our technical indicator for executing a trade was using a moving average crossover. If short moving average is greater than long moving average then stay or go long. 
+
+
 ### Model Evaluation
 
+Running / optimizing longer time series 
 
 ![image](https://user-images.githubusercontent.com/91380617/151642357-1efd6bf9-d472-4f72-823a-5d651eab5d7a.png)
 
@@ -106,15 +122,16 @@ Here are the features of our RNN LSTM model:
 ![image](https://user-images.githubusercontent.com/91380617/151642396-b50d56c2-a060-46e0-b0d6-7743f09d29e8.png)
 
 
-
-
-### Findings
-
-
 ![image](https://user-images.githubusercontent.com/91380617/151642410-97aec5b9-9be8-4978-935e-6a9faa339fe1.png)
 
 
 ![image](https://user-images.githubusercontent.com/91380617/151642416-6fd04200-5d8e-4051-b596-65729cccd930.png)
+
+
+### Findings
+
+1. Running longer time series analysis to 2009 yields poor results 
+2. 
 
 
 ### Challenges
