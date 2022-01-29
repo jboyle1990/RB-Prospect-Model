@@ -14,7 +14,7 @@ The second would be to build a forecasting model to detemine when to execute spe
 
 ## Data Gathering, Cleanup, and API Selection
 
-The first step for us to begin our project was to find historical stock data including a number of key metrics that would be used for both the clustering analysis and in building the machine learning model. We determined that metrics such as EBITDA, total debt, net income, VWAP, moving averages, etc. would be critical for us to perform our analysis.
+The first step for us to begin our project was to find historical stock data including a number of key metrics that would be used for both the clustering analysis and in building the forecasting model. We determined that metrics such as EBITDA, total debt, net income, VWAP, moving averages, etc. would be critical for us to perform our analysis.
 
 Through various APIs and online resouces we were able to gather a data set of over 160 individual stocks inclduing the metrics mentioned above. This information would be used in the clustering analysis and in the forecasting model.
 
@@ -29,7 +29,10 @@ Online Resources used:
 * Medium
 * Github
 
+Once we gathered the historical data (including financial metrics) and saved in a dataframe the output looked like the below:
+
 ![image](https://user-images.githubusercontent.com/91380617/151641968-779027d4-f22c-42c4-b60b-c3700d30fcb2.png)
+
 
 
 
@@ -40,7 +43,13 @@ Online Resources used:
 
 
 
+### Elbow Curve
 
+
+
+![image](https://user-images.githubusercontent.com/91380617/151642273-4a1d0736-d472-4153-940a-e4b9e7978325.png)
+
+### Sihlouette Analysis 
 
 
 
@@ -51,11 +60,38 @@ Online Resources used:
 
 ## Analysis 2 - Machine Learning Model to Evaluate 
 
-neural network technical analysis
+
+### Model Features
+
+![image](https://user-images.githubusercontent.com/91380617/151642334-b34b27e9-3bbd-4020-9baa-f7dfcbf292b3.png)
+
+### Model Evaluation
+
+
+![image](https://user-images.githubusercontent.com/91380617/151642357-1efd6bf9-d472-4f72-823a-5d651eab5d7a.png)
+
+
+![image](https://user-images.githubusercontent.com/91380617/151642374-59ea47e1-5771-4c9e-aa0c-37720f941843.png)
+
+
+![image](https://user-images.githubusercontent.com/91380617/151642382-1cc09a85-9f14-4f52-a141-7bc953a93a7d.png)
+
+
+![image](https://user-images.githubusercontent.com/91380617/151642389-e3419b09-d7cc-45a8-bfe2-0243aa0a0870.png)
+
+
+![image](https://user-images.githubusercontent.com/91380617/151642396-b50d56c2-a060-46e0-b0d6-7743f09d29e8.png)
+
 
 
 
 ### Findings
+
+
+![image](https://user-images.githubusercontent.com/91380617/151642410-97aec5b9-9be8-4978-935e-6a9faa339fe1.png)
+
+
+![image](https://user-images.githubusercontent.com/91380617/151642416-6fd04200-5d8e-4051-b596-65729cccd930.png)
 
 
 ## Conclusion
@@ -67,6 +103,8 @@ neural network technical analysis
 1. Lack of available historical data (most of it is behind paywalls)
 2. Lack of time 
 3. General coding skills / getting different code to run
+4. Learning how to use a new API
+5. Learnign a clustering method
 
 ## Additional Thoughts / Continuation of Analysis
 
