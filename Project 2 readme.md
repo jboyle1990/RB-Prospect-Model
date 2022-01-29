@@ -2,7 +2,7 @@
 
 ### Team Members
 
-Michael Detwiler, Adnon Quaderi, Johnathan Boyle, Brandon Spadafora
+Michael Detwiler, Adnan Quaderi, Johnathan Boyle, Brandon Spadafora
 
 ## Our Goals for this Project
 
@@ -40,36 +40,37 @@ Once we gathered the historical data (including financial metrics) and saved in 
 
 ## Analysis 1 - Clustering Study  
 
-
-
-
+The clustering analysis is a crucial part of our study as we're treating this as a  way to construct a future portfolio. Our goal here is to identify cross-sector groupings and to identify optimal clusters.
 
 ### Elbow Curve
 
 Observing the elbow curve there was a very distinct breaking point at 2 clusters with a second, less distinct, breaking point at 5 clusters.
 
-
-
 ![image](https://user-images.githubusercontent.com/91380617/151642273-4a1d0736-d472-4153-940a-e4b9e7978325.png)
+
+
 
 ### Sihlouette Analysis 
 
-
-
+The sihlouette score is much higher for 2 clusters than any other grouping telling us that two clusters is the optimal number. 
 
 ![Silhouette Score vs  Number of Clusters](https://user-images.githubusercontent.com/91380617/151643216-d9708ac4-d124-45c2-a51f-93e95f4c80b9.png)
 
-
-
+It's intersting that the second highest silhouette score is at 9 clusters. It's a wide spread of the two highest sihouette scores and a very flat distribution of clusters 3 through 8. 
 
 ### Findings
 
-Both methods to identify the optimal number of clusters determined that number was 2. 
+Both methods to identify the optimal number of clusters determined that number was 2. With leanings toward a much higher number for the second best number of clusters.
 
-Our interpretation of the data 
+A major discovery when analyzing the optimal number of clustered groups was that Facebook, Apple, Amazon, Netflix and Google (FAANG) were put into a group. These stocks were identified as as outliers and grouped together when the remaining 155 stocks formed the second cluster. We viewed this as a significant achievement for the model / code as there are FAANG traded ETFs in the marketplace.  
 
-A major discovery when analyzing the clustered groups was that the code grouped Facebook, Apple, Amazon, Netflix and Google (FAANG) into a group. 
+Our interpretation of the data was that because we pulled the from ETFs
 
+In the future we would like to introduce different data to the algorithm such as:
+
+* stocks outside these specific ETFs
+* different asset classes
+* 
 
 ## Analysis 2 - Machine Learning Model to Evaluate 
 
@@ -113,7 +114,7 @@ A major discovery when analyzing the clustered groups was that the code grouped 
 2. Lack of time 
 3. General coding skills / getting different code to run
 4. Learning how to use a new API
-5. Learnign a clustering method
+5. Learning a clustering method
 
 ## Additional Thoughts / Continuation of Analysis
 
