@@ -14,7 +14,11 @@ The second would be to build a forecasting model to detemine when to execute spe
 
 ## Data Gathering, Cleanup, and API Selection
 
-The first step for us to begin our project was to find historical stock data including a number of key metrics that would be used for both the clustering analysis and in building the forecasting model. We determined that metrics such as EBITDA, total debt, net income, VWAP, moving averages, etc. would be critical for us to perform our analysis.
+The first step for us to begin our project was to determine the stocks that we would use for our dataset. We realized that we needed a large pool of individual stock data and settled on the number of stocks in the 150+ range. The high number of stocks was important to us because we wanted to provide our clustering code a large and rich dataset to analyze.
+
+To save time we decided to pull stocks from established ETFs across three distinct sectors (tech, consumer staples, and utilities).
+
+The next step was to find historical stock data including a number of key metrics that would be used for both the clustering analysis and in building the forecasting model. We determined that metrics such as EBITDA, total debt, net income, VWAP, moving averages, etc. would be critical for us to perform our analysis.
 
 Through various APIs and online resouces we were able to gather a data set of over 160 individual stocks inclduing the metrics mentioned above. This information would be used in the clustering analysis and in the forecasting model.
 
@@ -34,9 +38,6 @@ Once we gathered the historical data (including financial metrics) and saved in 
 ![image](https://user-images.githubusercontent.com/91380617/151641968-779027d4-f22c-42c4-b60b-c3700d30fcb2.png)
 
 
-
-
-
 ## Analysis 1 - Clustering Study  
 
 
@@ -44,6 +45,8 @@ Once we gathered the historical data (including financial metrics) and saved in 
 
 
 ### Elbow Curve
+
+Observing the elbow curve there was a very distinct breaking point at 2 clusters with a second, less distinct, breaking point at 5 clusters.
 
 
 
@@ -61,7 +64,11 @@ Once we gathered the historical data (including financial metrics) and saved in 
 
 ### Findings
 
+Both methods to identify the optimal number of clusters determined that number was 2. 
 
+Our interpretation of the data 
+
+A major discovery when analyzing the clustered groups was that the code grouped Facebook, Apple, Amazon, Netflix and Google (FAANG) into a group. 
 
 
 ## Analysis 2 - Machine Learning Model to Evaluate 
@@ -98,10 +105,6 @@ Once we gathered the historical data (including financial metrics) and saved in 
 
 
 ![image](https://user-images.githubusercontent.com/91380617/151642416-6fd04200-5d8e-4051-b596-65729cccd930.png)
-
-
-## Conclusion
-
 
 
 ### Challenges
