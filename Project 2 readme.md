@@ -8,15 +8,15 @@ Michael Detwiler, Adnon Quaderi, Johnathan Boyle, Brandon Spadafora
 
 Our goal for this project was to examine how we could leverage machine learning in the financial markets to augment our trading performance. We decided to break this down into two separate examinations. 
 
-The first would be a classfication study. We looked to answer whether our "machine" could group individual stocks better than ETFs currently trading in the marketplace. we looked to answer whether we could use various clustering methods to group individual stocks together better than ETFs currently trading in the marketplace.
+The first would be a classfication study. We looked to answer whether our "machine" could group individual stocks better than ETFs currently trading in the marketplace. 
 
-The second would be to build a machine learning model to practice our trading method. 
+The second would be to build a forecasting model to detemine when to execute specific trades. We would also use this model to backtest potential historical returns based on our trading method.  
 
 ## Data Gathering, Cleanup, and API Selection
 
 The first step for us to begin our project was to find historical stock data including a number of key metrics that would be used for both the clustering analysis and in building the machine learning model. We determined that metrics such as EBITDA, total debt, net income, VWAP, moving averages, etc. would be critical for us to perform our analysis.
 
-Through various APIs and online resouces we were able to gather a data set of over 160 individual stocks inclduing the metrics mentioned above. This information would be used in the clustering analysis and in the machine learning model.
+Through various APIs and online resouces we were able to gather a data set of over 160 individual stocks inclduing the metrics mentioned above. This information would be used in the clustering analysis and in the forecasting model.
 
 APIs used:
 
@@ -29,7 +29,12 @@ Online Resources used:
 * Medium
 * Github
 
+https://keep.google.com/u/0/media/v2/1fJLiwHBHhXyKKAPdAYNkw663XIFMDacrsCoUZeGFlNbwmqoqQTtYpjeP7rRR_A/1WXRwx1CFzaQw-cuflyobQRkf5ohHnpGzk2wIhWKWcpipybecUEvW1jLskYp_BYc?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp
+
+
+
 ## Analysis 1 - Clustering Study  
+
 
 
 
