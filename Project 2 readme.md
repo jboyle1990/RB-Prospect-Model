@@ -53,6 +53,12 @@ Once we gathered the historical data (including financial metrics) and saved in 
 
 
 
+
+![Silhouette Score vs  Number of Clusters](https://user-images.githubusercontent.com/91380617/151643216-d9708ac4-d124-45c2-a51f-93e95f4c80b9.png)
+
+
+
+
 ### Findings
 
 
