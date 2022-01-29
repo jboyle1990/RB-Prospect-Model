@@ -1,4 +1,4 @@
-# Using Machine Learning to Examine Portfolio Construction & Machine Learning Performance in the Financial Marketplace
+# Using Machine Learning to Examine Portfolio Construction & Trading Performance in the Financial Marketplace
 
 ### Team Members
 
@@ -6,16 +6,15 @@ Michael Detwiler, Adnon Quaderi, Johnathan Boyle, Brandon Spadafora
 
 ## Our Goals for this Project
 
-Our goal for this project was to examine how we could leverage machine learning in the financial markets to augment our trading performance. This would encompass two separate studies. The
+Our goal for this project was to examine how we could leverage machine learning in the financial markets to augment our trading performance. We decided to break this down into two separate examinations 
 
-We looked to answer whether our "machine" could perform better than individual stocks within specific ETFs. 
+The first would be a classfication excerise We looked to answer whether our "machine" could perform better than individual stocks within specific ETFs. we looked to answer whether we could use various clustering methods to group individual stocks together better than ETFs currently trading in the marketplace.
 
-Additionally, we looked to answer whether we could use various clustering methods to group individual stocks together better than ETFs currently trading in the marketplace.
-
+The second would be to build a machine learning model to practice our trading method. 
 
 ## Data Gathering, Cleanup, and API Selection
 
-The first step for us to begin our project was to find historical stock information including a number of key metrics that would be used for both the clustering analysis and in building the machine learning model. We determined that metrics such as EBITDA, total debt, net income, VWAP, moving averages, etc. would be critical for us to perform our analysis.
+The first step for us to begin our project was to find historical stock data including a number of key metrics that would be used for both the clustering analysis and in building the machine learning model. We determined that metrics such as EBITDA, total debt, net income, VWAP, moving averages, etc. would be critical for us to perform our analysis.
 
 Through various APIs and online resouces we were able to gather a data set of over 160 individual stocks inclduing the metrics mentioned above. This information would be used in the clustering analysis and in the machine learning model.
 
@@ -38,10 +37,19 @@ Online Resources used:
 
 
 
+
+### Findings
+
+
+
+
 ## Analysis 2 - Machine Learning Model to Evaluate 
 
 neural network technical analysis
 
+
+
+### Findings
 
 
 ## Conclusion
@@ -51,13 +59,15 @@ neural network technical analysis
 ### Challenges
 
 1. Lack of available historical data (most of it is behind paywalls)
-2.  
+2. Lack of time 
+3. 
 
 ## Additional Thoughts / Continuation of Analysis
 
-1. 
-2. Backtest the machine learning model with additional stocks 
-3. Backtest the machine learning model with different asset classes (crypto, bonds)
+1. Would like to try the clustering analysis with a broader choice of stocks 
+2. Would like to try the clustering analyis with more features (Financial metrics)
+3. Backtest the machine learning model with additional stocks 
+4. Backtest the machine learning model with different asset classes (crypto, bonds)
 
 # References / Citations
 
