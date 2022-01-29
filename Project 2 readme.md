@@ -64,15 +64,16 @@ Both methods to identify the optimal number of clusters determined that number w
 
 A major discovery when analyzing the optimal number of clustered groups was that Facebook, Apple, Amazon, Netflix and Google (FAANG) were put into a group. These stocks were identified as as outliers and grouped together when the remaining 155 stocks formed the second cluster. We viewed this as a significant achievement for the model / code as there are FAANG traded ETFs in the marketplace.  
 
-Our interpretation of the data was that because we pulled the from ETFs
+Our interpretation of the data was that because we pulled from ETFs the group of stocks were too similar for the machine to separate.
 
 In the future we would like to introduce different data to the algorithm such as:
 
 * stocks outside these specific ETFs
 * different asset classes
-* 
+* different features )more financial metrics)
 
 ## Analysis 2 - Machine Learning Model to Evaluate 
+
 
 
 ### Model Features
