@@ -74,9 +74,17 @@ In the future we would like to introduce different data to the algorithm such as
 
 ## Analysis 2 - Machine Learning Model to Evaluate 
 
+The second part 
 
+### Model Specifications
 
-### Model Features
+Here are the features of our RNN LSTM model:
+
+* 3 Layers
+* Dropout fraction of 20%
+* Model was compiled using the adam optimizer
+* Mean square error was used as the loss function 
+* Used Early stopping as a new feature to determine the number of Epochs used
 
 ![image](https://user-images.githubusercontent.com/91380617/151642334-b34b27e9-3bbd-4020-9baa-f7dfcbf292b3.png)
 
