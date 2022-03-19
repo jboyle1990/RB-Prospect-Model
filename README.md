@@ -82,6 +82,8 @@ Python
 
 ### Smart Contract Compliling & Deployment
 
+The screenshots below are showing the smart contract compilation, deployment, and connection to the Metamask wallets interacting with the contract.
+
 ![smart contract compiling](https://user-images.githubusercontent.com/91380617/159125772-2c032f05-2478-4837-bbf6-27210e8deba8.png)
 
 ![smart contract deployment confirmation](https://user-images.githubusercontent.com/91380617/159125783-bcd5801a-c412-408b-b5cb-41511228c99c.png)
@@ -100,11 +102,14 @@ Here we mocked what a potential NFT ticket would look like. You'll notice that w
 
 ### NFT Marketplace 
 
+This is an early look at what a potential front end interface would look like for customers.
+
 ![selecting ticket](https://user-images.githubusercontent.com/91380617/159125767-f1e89b7b-bac3-4f5b-842b-97fc706ab0de.png)
 
 
 ### Transaction Confirmation 
 
+Here is confirmation that the tickets were purchased.
 
 ![transaction confirmation](https://user-images.githubusercontent.com/91380617/159125757-e195a9ab-cc5b-421a-8c44-22f284c8ce06.png)
 
